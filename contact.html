@@ -2,10 +2,16 @@
 <html>
     <head>
         <title>Contact</title>
+         <!--Shows the icon of the webpage-->
+         <link rel="icon" href="favicon-16x16.png" type="image/png">
     </head>
 
     <body>
+        <!--Putting the navigation page in the header tag-->
+        <header>
         <br>
+        <!--Adding the website's logo on the navigation bar-->
+        <img width="60" src="favicon-16x16.png" alt="My Logo">
         <!--Creation of a navigation bar-->
         <nav>
             <!--Linking each element of the navigation bar-->
@@ -19,9 +25,37 @@
         <!--Horizontal line drawn to separate navigation bar with the rest of the page-->
         <br>
         <hr>
+        </header>
 
        <main>
+        <!--Use of a form to collect contact information entered by a user-->
 
+        <form>
+            <h3>Fill the form below in case of any inquiries:</h3>
+            <!--Use of label t0 show the label of an input box-->
+            <!--The placeholder gives the user a tip when filling the form-->
+            <label>First Name:</label><br>
+            <input type="text" rows="25" placeholder="Enter First Name">
+            <br><br>
+
+            <!---->
+            <label>Second Name:</label> <br>
+            <input type="text" rows="25" placeholder="Enter Second Name">
+            <br><br>
+
+            <label>Email Address:</label>
+            <br>
+            <input type="email" rows =25 placeholder="Enter Email Address">
+            <br><br>
+
+            <!--Using textarea to allow a user to write a message-->
+            <textarea name="Message" cols="30" rows="10" placeholder="Message"></textarea>
+            <br><br>
+
+            <!--Using a submit button to send the details to the owner of web page-->
+            <input type="submit" value="Submit Feedback">
+
+        </form>
        <hr>
 
         <!--Footer displaying the bottom part of the webpage-->
