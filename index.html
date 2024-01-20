@@ -17,28 +17,143 @@
         <img width="60" src="favicon-16x16.png" alt="My Logo">
         <!--Creation of a navigation bar-->
         <nav>
+            <ul>
+
             <!--Linking each element of the navigation bar-->
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
             <a href="work.html">Work</a>
             <a href="resume.html">Resume</a>
             <a href="contact.html">Contact</a>
+            </ul>
+            
         </nav>
-
+        </header> 
         <!--Horizontal line drawn to separate navigation bar with the rest of the page using hr tag-->
         <br>
         <hr>
-
-        </header>
-
-       <main>
+        
+        <main>
         <h2>Hello, My Name is Ryan Gichana</h2>
         <p>I am an aspiring Web Developer and my goal is to learn to create functional web applications.
            <br>
            Click <a href="resume.html">here</a> to check my resume.
         </p>
 
+            <section id="about">
+                <!--About me section-->
+            <section style="background-color: lightblue">
+            <h3>About Me</h3>
+            <p>I have been learning web development from November 2023 and I am currently focusing on Front-end development as I continue to grow my skills. <br>
+               Currently, I am developing the basic structure of web applications using HTML and will broaden further to CSS for styling and JavaScript for interactivity. <br>
+               I am also looking forward to learning frameworks of JavaScript as I continue advancing.
+            </p>
+    
+            <p>I am also skilled in the following languages: 
+                <!--Using Discs for unordered lists-->
+                <ul type="disc">
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>SQL</li>
+                </ul>
+            </p>
+    
+            <p> 
+               I also deal with video editing as part of my leisure activity.
+            </p>
+    
+            </section>
+
+            </section>
+            <hr>
+
+            <section id="work">
+                <!--Use of a paragraph to write an explanation-->
+        <p>I have managed to work on the following projects:</p>
+        
+        <!--This is a food website section-->
+        <section>
+            <h3>Food Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero aperiam maiores repellendus. Asperiores omnis, voluptatum similique repellat voluptas velit impedit cumque! Adipisci quod eius nemo dolor provident laboriosam neque.</p>
+            <!--Displays an image within a folder-->
+            <img src="Food-website.jpg" width="700" alt="FoodWebsite">
+        </section>
+        
+        <!--This is a Male Fashion Ecommerce website section-->
+        <section>
+            <h3>Male Fashion Ecommerce Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero aperiam maiores repellendus. Asperiores omnis, voluptatum similique repellat voluptas velit impedit cumque! Adipisci quod eius nemo dolor provident laboriosam neque.</p>
+            <!--Displays an image within a folder-->
+            <img src="MaleFashionEcommerce.png" width="700" alt="MaleFashionWebsite">
+        </section>
+        
+        <!--This is a food website section-->
+        <section>
+            <h3>Vacation Website</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vero aperiam maiores repellendus. Asperiores omnis, voluptatum similique repellat voluptas velit impedit cumque! Adipisci quod eius nemo dolor provident laboriosam neque.</p>
+            <!--Displays an image within a folder-->
+            <img src="VacationWebsite.jpg" width="700" alt="VacationWebsite">
+        </section>
+        
+        <!--Showing an edited video uploaded on youtube-->
+        <section>
+            <h3> Editing Orchestral Videos </h3>
+            <!--Used iframe to add the video from youtube, which is in a different store-->
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, quia! Quasi sint accusantium cupiditate minima totam vitae at odit, soluta beatae aperiam odio laborum consequuntur velit enim. Tenetur, sit molestiae.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CP9RoYfU1hM?si=d8auKGSg02a3hCZl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <br>
        <hr>
+
+            
+            <section id="resume">
+                <h3> My Personal Resume</h3>
+                <br>
+        
+                <p> Click <a href="https://docs.google.com/document/d/1ufhmTw-ajgv64VdfoH5lX6GeFb3FfBikkc2COgKbrpo/edit">here</a>
+                    to check my resume
+                </p>
+        
+        
+
+            </section>
+            <hr>
+
+            <section id="contact">
+                <!--Use of a form to collect contact information entered by a user-->
+
+            <form>
+            <h3>Fill the form below in case of any inquiries:</h3>
+            <!--Use of label t0 show the label of an input box-->
+            <!--The placeholder gives the user a tip when filling the form-->
+            <label>First Name:</label><br>
+            <input type="text" rows="25" placeholder="Enter First Name">
+            <br><br>
+
+            <!---->
+            <label>Second Name:</label> <br>
+            <input type="text" rows="25" placeholder="Enter Second Name">
+            <br><br>
+
+            <label>Email Address:</label>
+            <br>
+            <input type="email" rows =25 placeholder="Enter Email Address">
+            <br><br>
+
+            <!--Using textarea to allow a user to write a message-->
+            <textarea name="Message" cols="30" rows="10" placeholder="Message"></textarea>
+            <br><br>
+
+            <!--Using a submit button to send the details to the owner of web page-->
+            <input type="submit" value="Submit Feedback">
+
+            </form>
+
+            </section>
+            <hr>
+
+        </section>
 
         <!--Footer displaying the bottom part of the webpage-->
         <footer>
